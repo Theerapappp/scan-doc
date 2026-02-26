@@ -3,7 +3,7 @@ import { Upload, Crop, FileText, CheckCircle, AlertCircle, Loader2, RotateCcw, I
 import ReactCrop from 'react-image-crop';
 import 'react-image-crop/dist/ReactCrop.css';
 // การตั้งค่า API
-const apiKey = "AIzaSyAskaRSgqN3ghzv36Qr6yFYS00oHrVgZVo";
+const apiKey = "YOUR API";
 
 // ฟังก์ชันช่วยสำหรับการทำ Exponential Backoff (ลองเรียก API ซ้ำถ้าล้มเหลว)
 const fetchWithRetry = async (url, options, maxRetries = 5) => {
